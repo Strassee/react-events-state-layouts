@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+  
+.toolbar {
+  display: flex;
+  margin-right: 20px;
+  box-sizing: border-box;
+  justify-content: flex-end;  
+}
+
+.material-icons {
+  color: #696969;
+  font-size: 43px;
+  background-color: #fff;
+  border: none;
+}

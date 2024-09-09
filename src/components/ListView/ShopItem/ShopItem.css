@@ -1,0 +1,29 @@
+.shopItem {
+    width: 1450px;
+    height: 95px;
+    margin-bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F5F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .wrap_img {
+    position: relative;
+    height: 95px;
+    width: 140px;
+  }
+  
+  .shopItem img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .shopItem .heading { padding-bottom: 6px; }
+  .shopItem .buttonCart { margin-right: 21px; }
